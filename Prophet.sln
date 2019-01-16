@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prophet.Core", "Prophet.Core\Prophet.Core.csproj", "{97D51433-EE22-4EE6-81AB-673BDEB1838A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prophet.Terminal", "Prophet.Terminal\Prophet.Terminal.csproj", "{35BB4662-CB08-4830-8DE4-3E429D16FA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prophet.Parser", "Prophet.Parser\Prophet.Parser.csproj", "{9A978857-B826-4EE1-B7C4-92CEBA5C96F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D51433-EE22-4EE6-81AB-673BDEB1838A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D51433-EE22-4EE6-81AB-673BDEB1838A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D51433-EE22-4EE6-81AB-673BDEB1838A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D51433-EE22-4EE6-81AB-673BDEB1838A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BB4662-CB08-4830-8DE4-3E429D16FA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BB4662-CB08-4830-8DE4-3E429D16FA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BB4662-CB08-4830-8DE4-3E429D16FA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BB4662-CB08-4830-8DE4-3E429D16FA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A978857-B826-4EE1-B7C4-92CEBA5C96F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A978857-B826-4EE1-B7C4-92CEBA5C96F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A978857-B826-4EE1-B7C4-92CEBA5C96F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A978857-B826-4EE1-B7C4-92CEBA5C96F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

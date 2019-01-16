@@ -1,0 +1,5 @@
+E:\projects\Prophet 2\Prophet\Prophet.Core\bin\Debug\Prophet.Core.dll
+E:\projects\Prophet 2\Prophet\Prophet.Core\bin\Debug\Prophet.Core.pdb
+E:\projects\Prophet 2\Prophet\Prophet.Core\obj\Debug\Prophet.Core.csprojResolveAssemblyReference.cache
+E:\projects\Prophet 2\Prophet\Prophet.Core\obj\Debug\Prophet.Core.dll
+E:\projects\Prophet 2\Prophet\Prophet.Core\obj\Debug\Prophet.Core.pdb

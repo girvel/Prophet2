@@ -1,0 +1,7 @@
+E:\projects\Prophet 2\Prophet\Prophet.Parser\bin\Debug\Prophet.Parser.dll
+E:\projects\Prophet 2\Prophet\Prophet.Parser\bin\Debug\Prophet.Parser.pdb
+E:\projects\Prophet 2\Prophet\Prophet.Parser\bin\Debug\Prophet.Core.dll
+E:\projects\Prophet 2\Prophet\Prophet.Parser\bin\Debug\Prophet.Core.pdb
+E:\projects\Prophet 2\Prophet\Prophet.Parser\obj\Debug\Prophet.Parser.csprojResolveAssemblyReference.cache
+E:\projects\Prophet 2\Prophet\Prophet.Parser\obj\Debug\Prophet.Parser.dll
+E:\projects\Prophet 2\Prophet\Prophet.Parser\obj\Debug\Prophet.Parser.pdb
