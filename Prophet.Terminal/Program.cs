@@ -14,7 +14,7 @@ namespace Prophet.Terminal
             var ui = new Ui();
 
             var currentReplica = GetScript();
-            while (currentReplica != null)
+            while (currentReplica?.Variants?.Any() ?? false)
             {
                 ui.ShowReplica(currentReplica);
                 Console.ReadKey(true);
