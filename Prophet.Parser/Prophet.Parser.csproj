@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reader.cs" />
+    <Compile Include="ReaderState.cs" />
     <Compile Include="ScriptReader.cs" />
   </ItemGroup>
   <ItemGroup>

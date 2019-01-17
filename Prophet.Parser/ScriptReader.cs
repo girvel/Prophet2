@@ -10,49 +10,82 @@ namespace Prophet.Parser
             NpcNamePattern = new Regex(@"^((\r?\n){2})?(\S+[\S ]*)(\r?\n[\S\s]*)$"),
             ReplicaPattern = new Regex(@"^(\r?\n)(\S+[\S ]*)(\r?\n[\S\s]*)$"),
             EndPattern = new Regex(@"^\s*$");
+
+        public Reader[] Readers;
+
+        public ScriptReader()
+        {
+            Readers = new[]
+            {
+                RegexReader(
+                    NpcNamePattern,
+                    (m, state) =>
+                    {
+                        state.NpcName = m.Groups[3].Value;
+                        state.Source = m.Groups[4].Value;
+                    }),
+                RegexReader(
+                    ReplicaPattern,
+                    (m, state) =>
+                    {
+                        if (state.NpcName == null)
+                        {
+                            // TODO exception
+                            throw new Exception();
+                        }
+                    
+                        state.Replica.Speaker = state.NpcName;
+                        state.Replica.Text = m.Groups[2].Value;
+                        state.Replica.Variants = new[] {new Variant("", new Replica()),};
+                        state.Replica = state.Replica.Variants[0].Replica;
+                        state.Source = m.Groups[3].Value;
+                    }),
+            };
+        }
+
         
-        
-        
+
         public Replica Read(string source)
         {
-            var replica = new Replica();
-            var root = replica;
+            var state = new ReaderState
+            {
+                NpcName = null,
+                Replica = new Replica(),
+                Source = source,
+            };
+            
+            var root = state.Replica;
             string npcName = null;
             
-            while (!EndPattern.IsMatch(source))
+            while (!EndPattern.IsMatch(state.Source))
             {
-                var match = NpcNamePattern.Match(source);
-
-                if (match.Success)
+                var read = false;
+                foreach (var reader in Readers)
                 {
-                    npcName = match.Groups[3].Value;
-                    source = match.Groups[4].Value;
-                    continue;
-                }
-
-                match = ReplicaPattern.Match(source);
-
-                if (match.Success)
-                {
-                    if (npcName == null)
+                    if (reader(state))
                     {
-                        // TODO exception
-                        throw new Exception();
+                        read = true;
+                        break;
                     }
-                    
-                    replica.Speaker = npcName;
-                    replica.Text = match.Groups[2].Value;
-                    replica.Variants = new[] {new Variant("", new Replica()),};
-                    replica = replica.Variants[0].Replica;
-                    source = match.Groups[3].Value;
-                    continue;
                 }
             
                 // TODO exception
-                throw new Exception();
+                if (!read) throw new Exception();
             }
 
             return root;
+        }
+
+        private Reader RegexReader(Regex r, Action<Match, ReaderState> action)
+        {
+            return state =>
+            {
+                var match = r.Match(state.Source);
+
+                if (match.Success) action(match, state);
+
+                return match.Success;
+            };
         }
     }
 }
