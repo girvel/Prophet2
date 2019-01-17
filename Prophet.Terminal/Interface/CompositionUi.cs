@@ -10,18 +10,36 @@ namespace Prophet.Terminal.Interface
 
 
 
+        public CompositionUi()
+        {
+        }
+        
+        public CompositionUi(params ILayer[] layers)
+        {
+            Layers = layers.ToList();
+        }
+
         public void Display()
         {
             var data = Layers.Aggregate(new Atom[0, 0], (d, layer) => d.Overlay(layer.GetState()));
         
             Console.Clear();
-            for (int y = 0; y < data.GetLength(1); y++)
+            for (int y = 0; y < Math.Min(data.GetLength(1), Console.WindowHeight - 1); y++)
             {
-                for (int x = 0; x < data.GetLength(0); x++)
+                for (int x = 0; x < Math.Min(data.GetLength(0), Console.BufferWidth - 1); x++)
                 {
-                    Console.ForegroundColor = data[x, y].Foreground;
-                    Console.BackgroundColor = data[x, y].Background;
-                    Console.Write(data[x, y].Character);
+                    var c = data[x, y];
+
+                    if (c == null)
+                    {
+                        Console.ResetColor();
+                        Console.Write(' ');
+                        continue;
+                    }
+                    
+                    Console.ForegroundColor = c.Foreground;
+                    Console.BackgroundColor = c.Background;
+                    Console.Write(c.Character);
                 }
                 
                 Console.WriteLine();

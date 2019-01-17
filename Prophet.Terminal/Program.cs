@@ -11,7 +11,6 @@ namespace Prophet.Terminal
     {
         public static void Main(string[] args)
         {
-            /*
             var ui = new Ui();
 
             var currentReplica = GetScript();
@@ -21,17 +20,8 @@ namespace Prophet.Terminal
                 Console.ReadKey(true);
 
                 currentReplica = currentReplica.Variants.First().Replica;
-            }*/
+            }
 
-            new CompositionUi
-            {
-                Layers = 
-                {
-                    new StringLayer("Hello, world!\nHello, world!"), 
-                    new StringLayer("Bye"),
-                },
-            }.Display();
-            
             Console.WriteLine("...");
             Console.ReadKey(true);
         }

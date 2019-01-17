@@ -48,10 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\Atom.cs" />
-    <Compile Include="Interface\ExtendedConsole.cs" />
+    <Compile Include="Interface\ColoredString.cs" />
+    <Compile Include="Interface\ColoredStringHelper.cs" />
     <Compile Include="Interface\ILayer.cs" />
     <Compile Include="Interface\LayerHelper.cs" />
-    <Compile Include="Interface\StringLayer.cs" />
+    <Compile Include="Interface\ColoredTextBox.cs" />
     <Compile Include="Interface\Ui.cs" />
     <Compile Include="Interface\CompositionUi.cs" />
     <Compile Include="Program.cs" />

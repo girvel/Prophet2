@@ -4,22 +4,23 @@ namespace Prophet.Terminal.Interface
 {
     public class Atom
     {
-        public ConsoleColor Background = ConsoleColor.Black;
-        public ConsoleColor Foreground = ConsoleColor.Gray;
+        public ConsoleColor Background { get; set; } = ConsoleColor.Black;
+        public ConsoleColor Foreground { get; set; } = ConsoleColor.Gray;
 
-        public char Character;
+        public char Character { get; set; } 
 
 
 
-        public static implicit operator Atom((ConsoleColor background, ConsoleColor foreground, char character) tuple)
+        public Atom()
+            {}
+        
+        public Atom(char character, ConsoleColor foreground, ConsoleColor background)
         {
-            return new Atom
-            {
-                Background = tuple.background,
-                Foreground = tuple.foreground,
-                Character = tuple.character,
-            };
+            Character = character;
+            Foreground = foreground;
+            Background = background;
         }
+
 
         public static bool operator ==(Atom a1, Atom a2) => a1?.Equals((object) a2) ?? a2?.Equals(null) ?? true;
 

@@ -8,7 +8,7 @@ namespace Prophet.Parser
     public class ScriptReader
     {
         public Regex 
-            NpcNamePattern = new Regex(@"^\n{2}?(\S+[\S ]*)([\S\s]*)$"),
+            NpcNamePattern = new Regex(@"^(\n{2})?(\S+[\S ]*)([\S\s]*)$"),
             ReplicaPattern = new Regex(@"^\n(\S+[\S ]*)([\S\s]*)$"),
             EndPattern = new Regex(@"^\s*$");
 
@@ -22,7 +22,7 @@ namespace Prophet.Parser
                     NpcNamePattern,
                     (m, state) =>
                     {
-                        state.NpcName = m.Groups[1].Value;
+                        state.NpcName = m.Groups[2].Value;
                     }),
                 RegexReader(
                     ReplicaPattern,
