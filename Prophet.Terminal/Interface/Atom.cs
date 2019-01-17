@@ -1,0 +1,52 @@
+﻿using System;
+
+namespace Prophet.Terminal.Interface
+{
+    public class Atom
+    {
+        public ConsoleColor Background = ConsoleColor.Black;
+        public ConsoleColor Foreground = ConsoleColor.Gray;
+
+        public char Character;
+
+
+
+        public static implicit operator Atom((ConsoleColor background, ConsoleColor foreground, char character) tuple)
+        {
+            return new Atom
+            {
+                Background = tuple.background,
+                Foreground = tuple.foreground,
+                Character = tuple.character,
+            };
+        }
+
+        public static bool operator ==(Atom a1, Atom a2) => a1?.Equals((object) a2) ?? a2?.Equals(null) ?? true;
+
+        public static bool operator !=(Atom a1, Atom a2) => !(a1 == a2);
+        
+        
+        
+        protected bool Equals(Atom other)
+        {
+            return Background == other.Background && Foreground == other.Foreground && Character == other.Character;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return !ReferenceEquals(null, obj) &&
+                   (ReferenceEquals(this, obj) || obj.GetType() == GetType() && Equals((Atom) obj));
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                var hashCode = Background.GetHashCode();
+                hashCode = (hashCode * 397) ^ (int) Foreground;
+                hashCode = (hashCode * 397) ^ Character.GetHashCode();
+                return hashCode;
+            }
+        }
+    }
+}

@@ -7,3 +7,7 @@ E:\projects\Prophet 2\Prophet\Prophet.Terminal\bin\Debug\Prophet.Parser.pdb
 E:\projects\Prophet 2\Prophet\Prophet.Terminal\obj\Debug\Prophet.Terminal.csprojResolveAssemblyReference.cache
 E:\projects\Prophet 2\Prophet\Prophet.Terminal\obj\Debug\Prophet.Terminal.exe
 E:\projects\Prophet 2\Prophet\Prophet.Terminal\obj\Debug\Prophet.Terminal.pdb
+E:\projects\Prophet 2\Prophet\Prophet.Terminal\bin\Debug\Province.Vector.dll
+E:\projects\Prophet 2\Prophet\Prophet.Terminal\bin\Debug\System.ValueTuple.dll
+E:\projects\Prophet 2\Prophet\Prophet.Terminal\bin\Debug\Province.Vector.pdb
+E:\projects\Prophet 2\Prophet\Prophet.Terminal\bin\Debug\System.ValueTuple.xml
