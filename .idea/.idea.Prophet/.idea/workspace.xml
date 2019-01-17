@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbc8950-66a8-40b9-b72f-04df581a6770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredStringHelper.cs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/ExtendedConsole.cs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Parser/bin/Debug/Prophet.Parser.dll" afterPath="$PROJECT_DIR$/Prophet.Parser/bin/Debug/Prophet.Parser.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Parser/bin/Debug/Prophet.Parser.pdb" afterPath="$PROJECT_DIR$/Prophet.Parser/bin/Debug/Prophet.Parser.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Parser/obj/Debug/Prophet.Parser.dll" afterPath="$PROJECT_DIR$/Prophet.Parser/obj/Debug/Prophet.Parser.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Parser/obj/Debug/Prophet.Parser.pdb" afterPath="$PROJECT_DIR$/Prophet.Parser/obj/Debug/Prophet.Parser.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Parser.dll" afterPath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Parser.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Parser.pdb" afterPath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Parser.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/Log.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prophet.Terminal/packages.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Terminal.exe" afterPath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Terminal.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Terminal.pdb" afterPath="$PROJECT_DIR$/Prophet.Terminal/bin/Debug/Prophet.Terminal.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.exe" afterPath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.pdb" afterPath="$PROJECT_DIR$/Prophet.Terminal/obj/Debug/Prophet.Terminal.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Prophet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Prophet/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs" afterPath="$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/Atom.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/Atom.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/CompositionUi.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/CompositionUi.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Program.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prophet.Terminal/Prophet.Terminal.csproj" afterPath="$PROJECT_DIR$/Prophet.Terminal/Prophet.Terminal.csproj" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Prophet.Terminal/Interface/StringLayer.cs" afterPath="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,19 +25,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Program.cs">
+      <file leaf-file-name="Log.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Log.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
-                <marker date="1547729490548" expanded="false" signature="6:125" ph="..." />
-                <marker date="1547729490548" expanded="true" signature="153:1057" ph="{...}" />
-                <marker date="1547729490548" expanded="true" signature="182:1055" ph="{...}" />
-                <marker date="1547729490548" expanded="true" signature="235:658" ph="{...}" />
-                <marker date="1547729490548" expanded="true" signature="384:574" ph="{...}" />
-                <marker date="1547729490548" expanded="true" signature="704:1049" ph="{...}" />
-                <marker date="1547729490548" expanded="true" signature="887:958" ph="{...}" />
+                <marker date="1547750549778" expanded="true" signature="56:331" ph="{...}" />
+                <marker date="1547750549778" expanded="true" signature="96:329" ph="{...}" />
+                <marker date="1547750549778" expanded="true" signature="197:323" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,122 +42,15 @@
       <file leaf-file-name="Ui.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="216">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <marker date="1547729480221" expanded="false" signature="6:33" ph="..." />
-                <marker date="1547729480221" expanded="true" signature="71:728" ph="{...}" />
-                <marker date="1547729480221" expanded="true" signature="109:726" ph="{...}" />
-                <marker date="1547729480221" expanded="true" signature="249:298" ph="{...}" />
-                <marker date="1547729480221" expanded="true" signature="356:720" ph="{...}" />
-                <marker date="1547729480221" expanded="true" signature="415:543" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColoredTextBox.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <marker date="1547730686051" expanded="true" signature="56:630" ph="{...}" />
-                <marker date="1547730686051" expanded="true" signature="99:628" ph="{...}" />
-                <marker date="1547730686051" expanded="true" signature="235:296" ph="{...}" />
-                <marker date="1547730686051" expanded="true" signature="348:395" ph="{...}" />
-                <marker date="1547730686051" expanded="true" signature="438:622" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScriptReader.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <marker date="1547729763900" expanded="false" signature="6:90" ph="..." />
-                <marker date="1547729763900" expanded="true" signature="116:2352" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="148:2350" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="431:1370" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="482:1359" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="582:685" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="786:1343" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="859:1008" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="1424:1907" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="1487:1608" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="1727:1871" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="1987:2344" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="2025:2333" ph="{...}" />
-                <marker date="1547729763900" expanded="true" signature="2126:2280" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColoredString.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColoredStringHelper.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredStringHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding>
-                <marker date="1547730310567" expanded="true" signature="6:66" ph="..." />
-                <marker date="1547730310567" expanded="true" signature="104:961" ph="{...}" />
-                <marker date="1547730310567" expanded="true" signature="150:959" ph="{...}" />
-                <marker date="1547730310567" expanded="true" signature="299:437" ph="{...}" />
-                <marker date="1547730310567" expanded="true" signature="522:953" ph="{...}" />
-                <marker date="1547730310567" expanded="true" signature="642:905" ph="{...}" />
-                <marker date="1547730310567" expanded="true" signature="705:824" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompositionUi.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/CompositionUi.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <marker date="1547730283330" expanded="true" signature="6:66" ph="..." />
-                <marker date="1547730283330" expanded="true" signature="104:1323" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="137:1321" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="248:268" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="330:388" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="419:1315" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="659:1305" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="768:1237" ph="{...}" />
-                <marker date="1547730283330" expanded="true" signature="862:1030" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LayerHelper.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/LayerHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <marker date="1547720768296" expanded="true" signature="6:55" ph="..." />
-                <marker date="1547720768296" expanded="true" signature="93:1218" ph="{...}" />
-                <marker date="1547720768296" expanded="true" signature="131:1216" ph="{...}" />
-                <marker date="1547720768296" expanded="true" signature="200:517" ph="{...}" />
-                <marker date="1547720768296" expanded="true" signature="339:479" ph="{...}" />
-                <marker date="1547720768296" expanded="true" signature="601:1210" ph="{...}" />
-                <marker date="1547720768296" expanded="true" signature="798:1172" ph="{...}" />
+                <marker date="1547750569690" expanded="false" signature="6:33" ph="..." />
+                <marker date="1547750569690" expanded="true" signature="71:789" ph="{...}" />
+                <marker date="1547750569690" expanded="true" signature="109:787" ph="{...}" />
+                <marker date="1547750569690" expanded="true" signature="227:359" ph="{...}" />
+                <marker date="1547750569690" expanded="true" signature="417:781" ph="{...}" />
+                <marker date="1547750569690" expanded="true" signature="476:604" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -185,6 +63,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Log.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prophet.Core/Variant.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/CompositionUi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ILayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -225,14 +104,15 @@
         <option value="$PROJECT_DIR$/../../Imperium/Province.Vector/Vector.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/LayerHelper.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredStringLayer.cs" />
-        <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs" />
-        <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Program.cs" />
         <option value="$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/Atom.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/CompositionUi.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredStringHelper.cs" />
+        <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs" />
         <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs" />
+        <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/Log.cs" />
+        <option value="$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs" />
       </list>
     </option>
   </component>
@@ -439,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547284611130</updated>
       <workItem from="1547284621578" duration="6542000" />
-      <workItem from="1547664487854" duration="19072000" />
+      <workItem from="1547664487854" duration="20723000" />
     </task>
     <task id="LOCAL-00001" summary="realized multiline replicas parsing">
       <created>1547668615024</created>
@@ -462,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547726824755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="realized simple colored text box">
+      <created>1547748964976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547748964976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25614000" />
+    <option name="totallyTimeSpent" value="27265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,14 +371,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -514,7 +401,8 @@
     <MESSAGE value="realized multiline replicas parsing" />
     <MESSAGE value="refactored script reader" />
     <MESSAGE value="realized basic layer ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="realized basic layer ui" />
+    <MESSAGE value="realized simple colored text box" />
+    <option name="LAST_COMMIT_MESSAGE" value="realized simple colored text box" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,12 +480,12 @@
         <state relative-caret-position="72">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
-            <marker date="1547729480221" expanded="false" signature="6:33" ph="..." />
-            <marker date="1547729480221" expanded="true" signature="71:728" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="109:726" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="249:298" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="356:720" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="415:543" ph="{...}" />
+            <marker date="1547750569690" expanded="false" signature="6:33" ph="..." />
+            <marker date="1547750569690" expanded="true" signature="71:789" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="109:787" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="227:359" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="417:781" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="476:604" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -690,22 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <marker date="1547729490548" expanded="false" signature="6:125" ph="..." />
-            <marker date="1547729490548" expanded="true" signature="153:1057" ph="{...}" />
-            <marker date="1547729490548" expanded="true" signature="182:1055" ph="{...}" />
-            <marker date="1547729490548" expanded="true" signature="235:658" ph="{...}" />
-            <marker date="1547729490548" expanded="true" signature="384:574" ph="{...}" />
-            <marker date="1547729490548" expanded="true" signature="704:1049" ph="{...}" />
-            <marker date="1547729490548" expanded="true" signature="887:958" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Atom.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -727,14 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -789,20 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <marker date="1547730686051" expanded="true" signature="56:630" ph="{...}" />
-            <marker date="1547730686051" expanded="true" signature="99:628" ph="{...}" />
-            <marker date="1547730686051" expanded="true" signature="235:296" ph="{...}" />
-            <marker date="1547730686051" expanded="true" signature="348:395" ph="{...}" />
-            <marker date="1547730686051" expanded="true" signature="438:622" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Prophet.Parser/ScriptReader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -826,17 +676,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredString.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <marker date="1547749585483" expanded="false" signature="6:78" ph="..." />
+            <marker date="1547749585483" expanded="true" signature="116:1195" ph="{...}" />
+            <marker date="1547749585483" expanded="true" signature="169:1193" ph="{...}" />
+            <marker date="1547749585483" expanded="true" signature="274:294" ph="{...}" />
+            <marker date="1547749585483" expanded="true" signature="361:424" ph="{...}" />
+            <marker date="1547749585483" expanded="true" signature="475:558" ph="{...}" />
+            <marker date="1547749585483" expanded="true" signature="607:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <marker date="1547729490548" expanded="false" signature="6:125" ph="..." />
+            <marker date="1547729490548" expanded="true" signature="153:1057" ph="{...}" />
+            <marker date="1547729490548" expanded="true" signature="182:1055" ph="{...}" />
+            <marker date="1547729490548" expanded="true" signature="235:658" ph="{...}" />
+            <marker date="1547729490548" expanded="true" signature="384:574" ph="{...}" />
+            <marker date="1547729490548" expanded="true" signature="704:1049" ph="{...}" />
+            <marker date="1547729490548" expanded="true" signature="887:958" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/ColoredTextBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1547750472747" expanded="true" signature="6:32" ph="..." />
+            <marker date="1547750472747" expanded="true" signature="70:973" ph="{...}" />
+            <marker date="1547750472747" expanded="true" signature="113:971" ph="{...}" />
+            <marker date="1547750472747" expanded="true" signature="247:308" ph="{...}" />
+            <marker date="1547750472747" expanded="true" signature="360:407" ph="{...}" />
+            <marker date="1547750472747" expanded="true" signature="450:521" ph="{...}" />
+            <marker date="1547750472747" expanded="true" signature="569:965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Log.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <marker date="1547750549778" expanded="true" signature="56:331" ph="{...}" />
+            <marker date="1547750549778" expanded="true" signature="96:329" ph="{...}" />
+            <marker date="1547750549778" expanded="true" signature="197:323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prophet.Terminal/Interface/Ui.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="216">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <marker date="1547729480221" expanded="false" signature="6:33" ph="..." />
-            <marker date="1547729480221" expanded="true" signature="71:728" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="109:726" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="249:298" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="356:720" ph="{...}" />
-            <marker date="1547729480221" expanded="true" signature="415:543" ph="{...}" />
+            <marker date="1547750569690" expanded="false" signature="6:33" ph="..." />
+            <marker date="1547750569690" expanded="true" signature="71:789" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="109:787" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="227:359" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="417:781" ph="{...}" />
+            <marker date="1547750569690" expanded="true" signature="476:604" ph="{...}" />
           </folding>
         </state>
       </provider>

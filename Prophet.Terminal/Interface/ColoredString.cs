@@ -7,9 +7,19 @@ namespace Prophet.Terminal.Interface
     public class ColoredString : IEnumerable<Atom>
     {
         public Atom[] InternalArray { get; set; } = new Atom[0];
+
+
+
+        public ColoredString()
+        {
+        }
         
-        
-        
+        public ColoredString(params Atom[] internalArray)
+        {
+            InternalArray = internalArray;
+        }
+
+
         public IEnumerator<Atom> GetEnumerator()
         {
             return InternalArray.Cast<Atom>().GetEnumerator();

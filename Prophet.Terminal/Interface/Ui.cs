@@ -7,11 +7,13 @@ namespace Prophet.Terminal.Interface
     {
         private string _lastSpeaker;
         
-        public ColoredTextBox Log { get; } = new ColoredTextBox();
+        public Log Log { get; } = new Log();
 
         public Ui()
         {
             Layers.Add(Log);
+            Console.Title = "Prophet";
+            Console.SetWindowSize(120, 40);
         }
         
         public void ShowReplica(Replica replica)
